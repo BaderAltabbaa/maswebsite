@@ -1,0 +1,252 @@
+.touch-sec{
+    display: flex;
+    flex-direction: column;
+    padding:40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.touch-top{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.touch-top.animate{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.t-top-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.t-top-1 span:first-child{
+    color: #ffc265;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.t-top-1 span:last-child{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.t-top-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.t-top-2 span{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 70px;
+    
+}
+
+.soical-cont{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+}
+
+.soical-cont i{
+    margin-right:40px;
+    font-size: 40px;
+    color: #ffc265;
+}
+
+.soical-cont i:hover{
+    color: #f6ab3a;
+}
+
+
+
+.contact-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.contact-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #2a1138;
+    color: white;
+    text-align: start;
+    opacity: 0; 
+  transform: translateY(50px); 
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+
+
+  .contact-card-body.animate {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+
+.contact-card-body:nth-child(1){
+    background-color: #561b78;
+}
+
+.contact-card-body i{
+   
+    font-size: 50px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.contact-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-desc{
+    color: #f6ab3a;
+}
+
+.message-sec{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f002c;
+}
+
+.message-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a1138;
+    padding-top:40px;
+    margin: 20px;
+    min-width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateX(50%);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+
+.message-cont.animate{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.msg-title{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.group1,.group2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input{
+    
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.24);
+}
+
+label{
+    color: white;   
+}
+
+.name-cont,
+.company-cont,
+.email-cont,
+.phone-cont,
+.subject-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.msg-sub{
+    margin-bottom: 20px;
+    border: none;
+    background-color: #561b78;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.msg-sub:hover{
+    background-color: #a248d6;
+}
+
+:dir(rtl) .msg-sub{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 768px) {
+
+ .touch-sec{
+    flex-direction: row;
+    align-items: center;
+    padding: 0 100px;
+    margin-bottom: 40px;
+ }
+
+ :dir(rtl) .touch-sec{
+    padding-top: 40px;
+ }
+ 
+ .contact-cards{
+    grid-template-columns: 1fr 1fr;
+    
+ }
+
+ .contact-card-body {
+    flex: 1 1 calc(50% - 30px); 
+    transform: translateX(100%); 
+  }
+
+  .contact-card-body.direction-left {
+    transform: translateX(-100%); 
+  }
+
+  .contact-card-body.animate {
+    transform: translateX(0); 
+  }
+
+ .group1,.group2{
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+ }
+
+ .message-sec{
+    padding:0 400px;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .touch-sec{
+        flex-direction: column;
+    }
+
+    .message-sec{
+        padding:0 50px;
+    }
+}

@@ -1,0 +1,253 @@
+.who-we-are-sec{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.who-top-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding:0 28px;
+    margin-bottom: 30px;
+    opacity: 0; 
+    transform: translateX(-50%); 
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.who-top-sec.animate {
+  opacity: 1;
+  transform: translateX(0); 
+}
+
+.who-title{
+    color: #c300c6;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.who-text1{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.who-text2{
+    color: rgb(179, 179, 179);
+    margin-bottom: 10px;
+}
+
+.who-bottom-sec{
+    margin-bottom: 20px;
+    opacity: 0; 
+    transform: translateX(50%); 
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.who-bottom-sec.animate {
+  opacity: 1;
+  transform: translateX(0); 
+}
+
+
+.small-screen{
+    width: 100%;
+    object-fit: cover;
+    
+}
+.big-screen{
+    display: none;
+}
+
+.we-do-text{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.progress-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2a1138;
+    
+}
+
+.progress-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #3d1156;
+    text-align: start;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+
+  .progress-card.animate-left {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .progress-card-header {
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    padding-right: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-card-description {
+    font-size: 16px;
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar-container {
+    height: 25px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  
+  .progress-element span{
+    color: white;
+  }
+
+  .progress-bar-container{
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .progress-bar {
+    height: 100%;
+    background-color:rgb(14, 165, 165);
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .progress-bar span{
+    margin-left: 5px;
+  }
+
+  .side-cards-cont{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .side-card-body{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 100%;
+    height: 150px;
+    justify-content: end;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #3d1156;
+    color: white;
+    opacity: 0;
+  transform: translateX(50%);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    
+  }
+
+  .side-card-body.animate-left {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .side-card-body.animate-right {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+
+  .side-card-body:nth-child(1){
+    background-color: #119797;
+  }
+
+  .side-card-body:nth-child(2){
+    background-color: #a857d7;
+  }
+
+  .side-card-body:nth-child(4){
+    background-color: rgb(201, 113, 218);
+  }
+
+  .side-card-text{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-self: first baselines;
+  }
+
+  .side-card-title{
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+@media (min-width: 768px) {
+
+    .who-we-are-sec{
+        display: flex;
+        flex-direction: row;
+        padding:50px 90px;
+        align-items: center;
+        
+    }
+
+    .small-screen{
+        display: none;
+    }
+
+    .big-screen{
+        display: inline;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .who-title{
+        font-size: 35px;
+    }
+
+    .who-text1{
+        font-size: 40px;
+    }
+
+    .progress-cont{
+        flex-direction: row;
+        
+    }
+
+    :dir(rtl) .progress-card{
+      margin-left: 20px;
+    }
+
+    .progress-card{
+        height: 400px;
+    }
+
+    .side-cards-cont{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 20px;
+    }
+
+    .side-card-body{
+        max-width: 250px;
+        height: 200px;
+    }
+
+}
