@@ -56,7 +56,7 @@ const AboutUs = () => {
       <span className="who-title">{t("aboutus.whoWeAre.title")}</span>
       <span className="who-text1">{t("aboutus.whoWeAre.text1")}</span>
       <span className="who-text2">{t("aboutus.whoWeAre.text2")}</span>
-      <button className="learn-btn">{t("aboutus.whoWeAre.button")}</button>
+     <a href="https://masfintech.com/wp-login.php?redirect_to=https%3A%2F%2Fmasfintech.com%2Fwp-admin%2Fpost.php%3Fpost%3D14107%26action%3Dedit&reauth=1"> <button className="learn-btn">{t("aboutus.whoWeAre.button")}</button></a>
           
         </div>
         <div className={`who-bottom-sec ${inView3 ? 'animate' : ''}`} ref={ref3} >
@@ -95,7 +95,7 @@ const AboutUs = () => {
       <div className='dis-cover'></div>
       <span className='dis-text1'>{t('home.discover.text1')}</span>
       <span className='dis-text2'>{t('home.discover.text2')}</span>
-      <button className="dis-btn">{t('home.discover.button')}</button>
+      <a className='link-index' href="https://masfintech.com/wp-login.php?redirect_to=https%3A%2F%2Fmasfintech.com%2Fwp-admin%2Fpost.php%3Fpost%3D14107%26action%3Dedit&reauth=1"> <button className="dis-btn">{t('home.discover.button')}</button></a>
       
      </div>
 

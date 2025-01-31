@@ -90,7 +90,7 @@ const Pricing = () => {
      <div className={`discover-sec ${inView5 ? 'animate' : ''}`} ref={ref5}>
       <div className='dis-cover'></div>
       <span className='dis-text1'>{t('price.dis')}</span>
-      <button className="dis-btn">{t('home.discover.button')}</button>
+      <a className='link-index' href="https://masfintech.com/wp-login.php?redirect_to=https%3A%2F%2Fmasfintech.com%2Fwp-admin%2Fpost.php%3Fpost%3D14107%26action%3Dedit&reauth=1"> <button className="dis-btn">{t('home.discover.button')}</button></a>
       
      </div>
     </>

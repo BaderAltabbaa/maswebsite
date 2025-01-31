@@ -402,6 +402,10 @@
     z-index: 2;
 }
 
+.link-index{
+    z-index: 2;
+}
+
 .dis-btn:hover{
     background-color: #f131f5;
     transition: 300ms ease-in;

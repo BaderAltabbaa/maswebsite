@@ -119,7 +119,7 @@ const Home = () => {
           <span>{t('home.portfolio.desc4')}</span>
           <span>{t('home.portfolio.desc5')}</span>
           </div>
-          <button className="learn-btn">{t('home.portfolio.learnMore')}</button>
+          <a href="https://masfintech.com/wp-login.php?redirect_to=https%3A%2F%2Fmasfintech.com%2Fwp-admin%2Fpost.php%3Fpost%3D14107%26action%3Dedit&reauth=1"><button className="learn-btn">{t('home.portfolio.learnMore')}</button></a>
        
         </div>
       </div>
@@ -152,7 +152,7 @@ const Home = () => {
       <div className='dis-cover'></div>
       <span className='dis-text1'>{t('home.discover.text1')}</span>
       <span className='dis-text2'>{t('home.discover.text2')}</span>
-      <button className="dis-btn">{t('home.discover.button')}</button>
+     <a className='link-index' href="https://masfintech.com/wp-login.php?redirect_to=https%3A%2F%2Fmasfintech.com%2Fwp-admin%2Fpost.php%3Fpost%3D14107%26action%3Dedit&reauth=1"> <button className="dis-btn">{t('home.discover.button')}</button></a>
       
      </div>
 
@@ -204,7 +204,7 @@ const Home = () => {
         >
       <span className='get-title'>{t('home.getStarted.title')}</span>
       <span className='get-desc'>{t('home.getStarted.text')}</span>
-      <button className="learn-btn" >{t('home.getStarted.button')}</button>
+      <a href="https://masfintech.com/wp-login.php?redirect_to=https%3A%2F%2Fmasfintech.com%2Fwp-admin%2Fpost.php%3Fpost%3D14107%26action%3Dedit&reauth=1"><button className="learn-btn" >{t('home.getStarted.button')}</button></a>
       </div>
       <div
           className={`img-cont ${imgInView ? "animate-right" : ""}`}
