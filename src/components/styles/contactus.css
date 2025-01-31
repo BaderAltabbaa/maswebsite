@@ -24,7 +24,7 @@
 }
 
 .t-top-1 span:first-child{
-    color: #ffc265;
+    color: #f131f5;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -59,11 +59,11 @@
 .soical-cont i{
     margin-right:40px;
     font-size: 40px;
-    color: #ffc265;
+    color: #f131f5;
 }
 
 .soical-cont i:hover{
-    color: #f6ab3a;
+    color: #921f94;
 }
 
 
@@ -114,7 +114,7 @@
 }
 
 .contact-desc{
-    color: #f6ab3a;
+    color: #9b9999;
 }
 
 .message-sec{

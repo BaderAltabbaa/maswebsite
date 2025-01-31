@@ -104,7 +104,7 @@
 .we-do-title{
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 44px;
-    color: #ffc265;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -154,7 +154,7 @@
 }
 
 .card-body:hover{
-    border: 1px solid #D09640;
+    border: 1px solid #ffffff;
     transition: ease-in 0.5s;
 }
 
@@ -167,7 +167,9 @@
 
 .card-title{
     font-size: 18px;
-    color: #ffc265;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 .card-desc{
@@ -302,7 +304,7 @@
 .p-cardtype{
     font-size: 24px;
     font-weight: bold;
-    color: #ffc265;
+    color: #f131f5;
     margin-bottom: 10px;
 }
 
@@ -375,7 +377,7 @@
   }
 
   .dis-text1{
-    color:#ffc265;
+    color:#ffffff;
     font-size: 28px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -455,7 +457,7 @@
     margin-bottom: 20px;
 }
 .ser-title{
-    color:#ffc265;
+    color:#ffffff;
     font-size: 40px;
     z-index: 2;
 }
@@ -476,7 +478,7 @@
 
 .service-title i{
     margin-right: 5px;
-    color:#D09640;
+    color:#0494fc;
 }
 
 .service-desc{
@@ -526,7 +528,7 @@
 }
 .choose-title{
     font-size: 20px;
-    color: #ffc265;
+    color: #ffffff;
     margin: 20px 0;
 }
 .choose-desc{
@@ -552,7 +554,7 @@
     height: 250px;
     max-width: 100%;
     background-color: #7a4599;
-    border: 2px solid #D09640; 
+    border: 2px solid #ffffff; 
     opacity: 0; 
   transform: translateX(-100%); 
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -806,7 +808,7 @@
 }
 
 .how-title{
-    color:#ffc265;
+    color:#ffffff;
     font-size: 50px;
     font-weight: bold;
 }
@@ -859,14 +861,14 @@
 }
 
 .hcard-body:nth-child(1):hover,.hcard-body:nth-child(3):hover{
-    border: 2px solid #ffc265;
+    border: 2px solid #ffffff;
     transition: ease-out 200ms;
 }
 
 .hcard-body:nth-child(2),.hcard-body:nth-child(4){
     position: relative;
     top: 20%;
-    border: 2px solid #ffc265;
+    border: 2px solid #ffffff;
 }
 
 .hcard-body:nth-child(2):hover,.hcard-body:nth-child(4):hover{

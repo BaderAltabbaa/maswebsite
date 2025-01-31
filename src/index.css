@@ -17,6 +17,7 @@ html {
 
 body[dir="rtl"] {
   direction: rtl;
+  overflow-x: hidden;
   
 }
 
@@ -91,7 +92,7 @@ body[dir="rtl"] {
 }
 
 .burger-menu.open .bar {
-  background-color: #D09640;
+  background-color: #f131f5;
 }
 
 .burger-menu-toggle {
@@ -181,17 +182,17 @@ body[dir="rtl"] {
 
 .mid-icons i {
   font-size: 48px;
-  color: #ffc265;
+  color: #f131f5;
   margin: 0 30px;
 }
 
 .mid-icons i:hover {
   font-size: 48px;
-  color: #D09640;
+  color: #921f94;
 }
 
 #phone {
-  color: #ffc265;
+  color: #f131f5;
   font-size: 80px;
   margin: 25px 0;
 }
@@ -327,20 +328,12 @@ body[dir="rtl"] {
 
 .navbar-item.language-switcher span:hover {
   transform: scale(1.2);
-  color: #ffc265;
+  color: #f131f5;
 }
 
 .navbar-item.language-switcher .active {
   font-weight: bold;
-  color: #ffc265;
-}
-
-
-
-
-
-.language-switcher .active-lang:hover{
-  color: #ffc265;
+  color: #f131f5;
 }
 
 
@@ -387,12 +380,12 @@ body[dir="rtl"] {
 
   .navbar-item.active {
     background: none;
-    color: #ffc265;
+    color: #f131f5;
     border-radius: 20px;
   }
 
   .navbar-item:hover {
-    color: #ffc265;
+    color: #f131f5;
     background: none;
   }
 
