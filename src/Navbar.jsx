@@ -80,14 +80,14 @@ function Navbar({ selectedComponent, setSelectedComponent }) {
                     onClick={() => switchLanguage("en")}
                     className={activeLang === "en" ? "active" : ""}
                   >
-                     🇪🇳
+                     EN
                   </span>
                   <span>|</span>
                   <span
                     onClick={() => switchLanguage("ar")}
                     className={activeLang === "ar" ? "active" : ""}
                   >
-                     🇦🇷
+                     AR
                   </span>
                 </div>
               </div>
