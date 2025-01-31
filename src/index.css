@@ -210,7 +210,7 @@ body[dir="rtl"] {
 }
 
 .subpage-header{
-  background-image: url(Art.jpg);
+  background-image: url(/Art.jpg);
   background-size: cover; 
   background-position: center; 
   width: 100%; 

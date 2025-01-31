@@ -3,7 +3,7 @@
   }
 
 .header-sec{
-    background-image: url(pexels-kendal.jpg);
+    background-image: url(/pexels-kendal.jpg);
     background-size: cover; 
     background-position: center; 
     width: 100%; 
@@ -339,7 +339,7 @@
 
 .discover-sec {
     position: relative;
-    background-image: url(test2.avif);
+    background-image: url(/test2.avif);
     background-size: cover; 
     background-position: center; 
     width: auto; 
@@ -409,7 +409,7 @@
 
 .service-sec{
     position: relative;
-    background-image: url(test.jpg);
+    background-image: url(/test.jpg);
     background-size: cover; 
     background-position: center; 
     width: auto; 
@@ -650,7 +650,7 @@
 }
 
 .img-cont{
-    background-image: url(kisspng-clip-art-nice-triangle-5aa1cce3ce4c59.458430491520553187845.png);
+    background-image: url(/kisspng-clip-art-nice-triangle-5aa1cce3ce4c59.458430491520553187845.png);
     background-size:contain;
     background-position: center;
     opacity: 0; 
