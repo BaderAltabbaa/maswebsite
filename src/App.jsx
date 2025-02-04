@@ -25,14 +25,15 @@ const App = () => {
     <div>
       <Navbar selectedComponent={selectedComponent} setSelectedComponent={setSelectedComponent} />
       <div>
-        {selectedComponent === "home" && <Home />}
-        {selectedComponent === "aboutUs" && <AboutUs />}
+        {selectedComponent === "home" && <Home />} 
         {selectedComponent === "ourProfile" && <OurProfiles />}
-        {selectedComponent === "contactUs" && <ContactUs />}
-        {selectedComponent === "blog" && <Blog />}
-        {selectedComponent === "portfolio" && <Portfolio />}
         {selectedComponent === "pricing" && <Pricing />}
         {selectedComponent === "services" && <Services />}
+        {selectedComponent === "blog" && <Blog />}
+        {selectedComponent === "portfolio" && <Portfolio />}
+        {selectedComponent === "aboutUs" && <AboutUs />}
+        {selectedComponent === "contactUs" && <ContactUs />}
+        
       </div>
       <Footer selectedComponent={selectedComponent} setSelectedComponent={setSelectedComponent} />
     </div>

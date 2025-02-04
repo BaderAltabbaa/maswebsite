@@ -62,14 +62,19 @@
     cursor: grab;
  }
 
+ .tool{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
   
+  
+ } 
+
   .profile-left-arrow,
   .profile-right-arrow {
-    position: absolute;
-    top: 86%;
-    transform: translateY(-50%);
     z-index: 3;
-    background-color: rgba(0, 0, 0, 0.495);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
     font-size: 40px;
     cursor: pointer;
@@ -88,7 +93,7 @@
   
   .profile-left-arrow:hover,
   .profile-right-arrow:hover {
-    color: #D09640;
+    color: #888887;
   }
   
  

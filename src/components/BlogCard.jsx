@@ -30,11 +30,7 @@ const { ref, inView } = useInView({
               style={{ color: activeIcon === 'like' ? '#9c9797' : '#c053ff', cursor: 'pointer' }}
             ></i>
      
-     <i
-              className={`fas fa-thumbs-down ${activeIcon === 'dislike' ? 'active' : ''}`}
-              onClick={() => onIconClick(id, 'dislike')}
-              style={{ color: activeIcon === 'dislike' ? '#9c9797' : '#c053ff', cursor: 'pointer' }}
-            ></i>
+    
 
      </div>
      </div>

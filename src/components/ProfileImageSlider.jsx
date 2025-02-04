@@ -35,9 +35,7 @@ const ProfileImageSlider = ({ images, autoPlayInterval = 3000 }) => {
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
-        <button className="profile-left-arrow" onClick={prevSlide}>
-          ❮
-        </button>
+        
 
         
         <div
@@ -58,14 +56,19 @@ const ProfileImageSlider = ({ images, autoPlayInterval = 3000 }) => {
           ))}
         </div>
 
-        <button className="profile-right-arrow" onClick={nextSlide}>
-          ❯
-        </button>
+        
       </div>
 
-      
+      <div className="tool">
+      <button className="profile-left-arrow" onClick={prevSlide}>
+          ❮
+        </button>
       <div className="profile-counter">
         {currentIndex + 1} / {images.length}
+      </div>
+      <button className="profile-right-arrow" onClick={nextSlide}>
+          ❯
+        </button>
       </div>
     </div>
   );

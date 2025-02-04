@@ -3,7 +3,7 @@ const resources = {
     translation: {
       navbar: {
         home: "Home",
-        aboutUs: "About Us", // CamelCase
+        aboutUs: "About Us",
         ourProfile: "Our Profile",
         contactUs: "Contact Us",
         blog: "Blog",
@@ -34,9 +34,9 @@ const resources = {
           title: "Portfolio",
           desc1: "Innovation is the core of",
           desc2: "everything we do.",
-          desc3: "The Driving Force at the Heart of Our Endeavors – Pioneering Creative",
-          desc4: "Solutions and Redefining Industries for a Dynamic Future Focused on",
-          desc5: "Excellence and Progress",
+          desc3: "The Driving Force at the Heart of Our Endeavors",
+          desc4: " Pioneering Creative Solutions and Redefining Industries for a Dynamic Future Focused on Excellence and Progress",
+          desc5: "",
           learnMore: "Learn More",
           typemoblie: "Mobile Application",
           typeweb: "Web Site",
@@ -266,7 +266,7 @@ const resources = {
                 ]
               },
               {
-                title: "Creating visual identity and professional designs",
+                title: "Visual Identity",
                 description: "We work to create a distinctive visual identity and professional designs",
                 price: "$1000",
                 priceSpan: "by identity",
@@ -279,7 +279,7 @@ const resources = {
                 ]
               },
               {
-                title: "Creating online shops",
+                title: "Online Shops",
                 description: "We build the shop and make connections with your bank",
                 price: "$750",
                 priceSpan: "starting price",
@@ -292,7 +292,7 @@ const resources = {
                 ]
               },
               {
-                title: "Mobile Applications Design and Development",
+                title: "Mobile Applications",
                 description: "We build your application using the latest technology",
                 price: "3500$",
                 priceSpan: "starting prices",
@@ -305,8 +305,8 @@ const resources = {
                 ]
               },
               {
-                title: "Creating and Managing Digital Advertising Campaigns",
-                description: "",
+                title: "Digital Marketing",
+                description: "Creating and Managing Digital Advertising Campaigns",
                 price: "$1000",
                 priceSpan: "",
                 features: [
@@ -319,7 +319,7 @@ const resources = {
               },
               {
                 title: "Voice Over",
-                description: "We also can voice over your videos",
+                description: "We also can professionally voice over your videos",
                 price: "$50",
                 priceSpan: "min",
                 features: [
@@ -402,7 +402,7 @@ const resources = {
           desc2: "",
           desc3: "الابتكار: القوة الدافعة في قلب جهودنا",
           desc5: "ريادة الحلول الإبداعية وإعادة تعريف الصناعات لمستقبل دينامي يركز على التميز والتقدم.",
-          desc4: "-",
+          desc4: "",
           learnMore: "تعرف على المزيد",
           typemoblie: "تطبيقات الجوال",
           typeweb: "موقع الكتروني",
@@ -617,36 +617,36 @@ const resources = {
             text2:"تحقيق التحول الرقمي يعزز الكفاءة ويعزز تجارب العملاء من خلال التخصيص، كما يمكنه تمكين اتخاذ القرارات استنادًا إلى البيانات. يعزز من الابتكار، ويقلل التكاليف، ويُيسّر التوسع العالمي، مع تعزيز الاستدامة وتمكين التحسين المستمر.",
             cards: [
               {
-                title: "برمجة المواقع الالكترونية",
+                title: " المواقع الالكترونية",
                 description: "تخصصت شركتنا في تصميم وتطوير المواقع على مستوى عالٍ من الجودة.",
                 price: "500$",
                 priceSpan: "سعر يبدا من",
                 features: ["تصاميم تفاعلية", "تفاعل سريع", "حماية", "إدارة المحتوى", "تحسين محركات البحث"]
               },
               {
-                title: "انشاء وتصميم الهوية البصرية",
+                title: "الهوية البصرية",
                 description: "نعمل على إنشاء هوية بصرية مميزة وتصاميم احترافية.",
                 price: "$1000",
                 priceSpan: "الهوية",
                 features: ["تصميم الشعار", "لوحة الألوان والخطوط", "عناصر الجرافيك", "التناسق عبر مختلف الأنظمة والمنصات", "إرشادات العلامة التجارية"]
               },
               {
-                title: "برمجة متاجر الكترونية",
+                title: " المتاجر الكترونية",
                 description: "نقوم ببناء المتجر وإجراء التواصل مع البنك الخاص بك.",
                 price: "$750",
                 priceSpan: "سعر يبدا من",
                 features: ["واجهة سهلة الاستخدام", "خيارات دفع آمنة", "عرض المنتجات بطريقة عالية الجودة", "تصاميم تفاعلية", "إدارة المخزون وتتبع الطلبات"]
               },
               {
-                title: "برمجة وتصميم تطبيقات الجوال",
+                title: "تطبيقات الجوال",
                 description: "نقوم ببناء تطبيقك باستخدام أحدث التقنيات.",
                 price: "3500$",
                 priceSpan: "سعر يبدا من",
                 features: ["تصميم واجهة مستخدم بديهية", "توافق عبر مختلف المنصات", "قابلية التوسع وتحسين الأداء", "تدابير الأمان", "تصميم موجه نحو المستخدم"]
               },
               {
-                title: "إنشاء وإدارة حملات الإعلانات الالكترونية",
-                description: "",
+                title: "التسويق الرقمي",
+                description: "إنشاء وإدارة حملات الإعلانات الالكترونية",
                 price: "$1000",
                 priceSpan: "",
                 features: ["الإعلان المستهدف", "أدوات تحليلية", "تكامل متعدد القنوات", "تحسين الإبداع الإعلاني", "إدارة الميزانية وتحليل عائد الاستثمار (ROI)"]

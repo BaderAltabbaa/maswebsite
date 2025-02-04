@@ -57,17 +57,17 @@
  
  
   
-  @media screen and (min-width: 768px) {
+  @media(min-width: 768px) {
     .pricing-container {
       grid-template-columns: 1fr 1fr 1fr;
       padding: 20px 200px;
     }
 
     .title-sec{
-        flex-direction: row;
-        text-align: start;
-        padding: 20px 200px;
-        align-items: start;
+        
+        
+        padding: 20px 500px;
+        
     }
 
 
@@ -160,7 +160,7 @@
   }
   
   .get-started-btn {
-    background-color: #0074c6;
+    background-color: #af29c4;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -171,7 +171,7 @@
   }
   
   .get-started-btn:hover {
-    background-color: #0494fc;
+    background-color: #681774;
   }
   
   @media (min-width: 768px) and (max-width: 1024px){

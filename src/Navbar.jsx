@@ -32,13 +32,13 @@ function Navbar({ selectedComponent, setSelectedComponent }) {
 
   const menuItems = [
     "home",
-    "aboutUs",
     "ourProfile",
-    "contactUs",
-    "blog",
+    "services",
     "portfolio",
     "pricing",
-    "services",
+    "blog",
+    "contactUs",
+    "aboutUs",
   ];
 
   return (

@@ -34,11 +34,11 @@ const { t } = useTranslation();
 
 
      const images =[
-      { src: 'graphic.jpg', title: t('slider.image.titleg') , text: t('slider.image.textg')},
-      { src: 'marketing.jpg', title:t('slider.image.titleo'), text:  t('slider.image.texto')},
-      { src: 'web.jpg', title: t('slider.image.titlew'), text:  t('slider.image.textw')},
-      { src: 'appdev.jpg', title:t('slider.image.titlem'), text:  t('slider.image.textm')},
-      { src: 'voiceover.jpg', title:t('slider.image.titlev'), text:  t('slider.image.textv')}
+      { src: 'imageslider/graphicslide-100.jpg', title: t('slider.image.titleg') , text: t('slider.image.textg')},
+      { src: 'imageslider/marketslide-100.jpg', title:t('slider.image.titleo'), text:  t('slider.image.texto')},
+      { src: 'imageslider/webslide-100.jpg', title: t('slider.image.titlew'), text:  t('slider.image.textw')},
+      { src: 'imageslider/appslide-100.jpg', title:t('slider.image.titlem'), text:  t('slider.image.textm')},
+      { src: 'imageslider/voiceslide-100.jpg', title:t('slider.image.titlev'), text:  t('slider.image.textv')}
     ]
 
  

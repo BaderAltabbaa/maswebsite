@@ -55,7 +55,6 @@ const Pricing = () => {
       <div className="deliver-sec">
         <div className="title-sec">
           <span  className={`price-text1 ${inView1 ? 'animate' : ''}`} ref={ref1}>{t("price.text1")}</span>
-          <span  className={`price-text2 ${inView2 ? 'animate' : ''}`} ref={ref2}>{t("price.text2")}</span>
         </div>
         <div className="pricing-container">
       {cardData.map((card, index) => (

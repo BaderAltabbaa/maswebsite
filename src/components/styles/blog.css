@@ -21,7 +21,7 @@
 }
 
 .load-btn{
-   background-color: #410b60;
+   background-color: #561b78;
    color: white;
    border: none;
    font-size: 20px;
@@ -31,7 +31,7 @@
 }
 
 .load-btn:hover{
-  background-color: #5d1388;
+  background-color: #44185e;
   cursor: pointer;
 }
 

@@ -49,20 +49,20 @@ const Home = () => {
 
 
   const portfolio =[
-    {id:1, class:'Mobile application', type: t('home.portfolio.typemoblie'),name:'Goldmall',image:'App 1.png'},
-    {id:2, class:'Mobile application', type: t('home.portfolio.typemoblie'),name:'Goldmall',image:'App 2.png'},
-    {id:3, class:'Mobile application',type: t('home.portfolio.typemoblie'),name:'Goldmall',image:'App 3.png'},
-    {id:4, class:'web',type: t('home.portfolio.typeweb'),name:'Goldmall',image:'web 1.png'},
-    {id:5, class:'web',type: t('home.portfolio.typeweb'),name:'Goldmall',image:'web 2.png'},
-    {id:6, class:'web',type: t('home.portfolio.typeweb'),name:'Goldmall',image:'web 3.png'}
+    {id:1, class:'Mobile application', type: t('home.portfolio.typemoblie'),name:'Goldmall',image:'shop.png'},
+    {id:2, class:'Mobile application', type: t('home.portfolio.typemoblie'),name:'SOUL',image:'soul.png'},
+    {id:3, class:'Mobile application',type: t('home.portfolio.typemoblie'),name:'SIRAJ',image:'siraj.png'},
+    {id:4, class:'web',type: t('home.portfolio.typeweb'),name:'Alsaad Group',image:'alsaad.png'},
+    {id:5, class:'web',type: t('home.portfolio.typeweb'),name:'Royal.rtu',image:'royal.png'},
+    {id:6, class:'web',type: t('home.portfolio.typeweb'),name:'Taizer shop',image:'taizer.png'}
   ]
 
   const images =[
-    { src: 'graphic.jpg', title: t('slider.image.titleg') , text: t('slider.image.textg')},
-    { src: 'marketing.jpg', title:t('slider.image.titleo'), text:  t('slider.image.texto')},
-    { src: 'web.jpg', title: t('slider.image.titlew'), text:  t('slider.image.textw')},
-    { src: 'appdev.jpg', title:t('slider.image.titlem'), text:  t('slider.image.textm')},
-    { src: 'voiceover.jpg', title:t('slider.image.titlev'), text:  t('slider.image.textv')}
+    { src: 'imageslider/graphicslide-100.jpg', title: t('slider.image.titleg') , text: t('slider.image.textg')},
+    { src: 'imageslider/marketslide-100.jpg', title:t('slider.image.titleo'), text:  t('slider.image.texto')},
+    { src: 'imageslider/webslide-100.jpg', title: t('slider.image.titlew'), text:  t('slider.image.textw')},
+    { src: 'imageslider/appslide-100.jpg', title:t('slider.image.titlem'), text:  t('slider.image.textm')},
+    { src: 'imageslider/voiceslide-100.jpg', title:t('slider.image.titlev'), text:  t('slider.image.textv')}
   ]
 
   const weDoContent = [
@@ -88,7 +88,7 @@ const Home = () => {
       </div>
 
       <div className="slider-sec">
-      <span className='we-do-title'>{t('home.weDo.title')}</span>
+      
 <ImageSlider images={images} autoPlayInterval={5000} />;
      </div>
 

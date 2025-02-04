@@ -3,11 +3,11 @@
   }
 
 .header-sec{
-    background-image: url(/pexels-kendal.jpg);
+    background-image: url(/pexels-kendal1.png);
     background-size: cover; 
     background-position: center; 
     width: 100%; 
-    height: 400px;
+    height: 60vh;
     position: absolute;
     right: 0;
     top: 0;
@@ -200,7 +200,7 @@
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0; 
-    transform: translateX(-100%); 
+    transform: translateX(-50%); 
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
@@ -231,7 +231,7 @@
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0; 
-    transform: translateX(100%); 
+    transform: translateX(50%); 
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
   
@@ -244,6 +244,8 @@
     text-align: center;
     color:rgb(103, 102, 102);
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
     
 
@@ -277,6 +279,7 @@
   gap: 100px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 100px;
  
   
 }
@@ -304,7 +307,7 @@
 .p-cardtype{
     font-size: 24px;
     font-weight: bold;
-    color: #f131f5;
+    color: #c300c6;
     margin-bottom: 10px;
 }
 
@@ -334,14 +337,9 @@
     max-height: 100%;
 }
 
-.p-cardimg:hover{
-    width: 110%;
-    transition: 1s ease-out;
-}
-
 .discover-sec {
     position: relative;
-    background-image: url(/test2.avif);
+    background-image: url(/test3.png);
     background-size: cover; 
     background-position: center; 
     width: auto; 
@@ -351,7 +349,6 @@
     justify-content: center;
     align-items: center;
     padding: 50px; 
-    margin-top: 100px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0; 
@@ -372,7 +369,7 @@
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 0.5; 
+    opacity: 0.6; 
     z-index: 1;
   }
 
@@ -397,7 +394,7 @@
     padding: 15px;
     font-size: 18px;
     color: white;
-    background-color: #c300c6;
+    background-color: #0074c6;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -409,7 +406,7 @@
 }
 
 .dis-btn:hover{
-    background-color: #f131f5;
+    background-color: #0494fc;
     transition: 300ms ease-in;
 }
 
@@ -520,7 +517,7 @@
     align-items: center;
     justify-content: start;
     text-align: center;
-    background-color: #390f52;
+    background-color: #1f082c;
     padding: 10px  10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 90vh;
@@ -567,7 +564,7 @@
   }
 
 .ccard-body:nth-child(1),.ccard-body:nth-child(3){
-    background-color:#378ecc;
+    background-color: #0494fc;
     border: none;
 }
 
@@ -681,7 +678,7 @@
 @media (min-width: 768px) {
     
 
-.header-sec{height: 540px;}
+.header-sec{height: 80vh;}
 
 .header-animation{
     display: flex;
@@ -712,15 +709,8 @@
     min-height: 500px;
 }
 
-.port-top{
-    flex-direction: row;
-    margin: 0 40px;
-    
-    
-}
-
 .port-left {
-    align-items: start;
+    margin-bottom: 20px;
 }
 
 .v2{
@@ -731,21 +721,15 @@
     margin-left: 0 !important;
 }
 
-:dir(rtl) .port-left{
-    margin-left: 120px;
-  }
-.port-right{
-    align-items: start;
-    margin-left: 200px;
-}
 
 .left-desc{
     font-size: 32px;
     white-space: nowrap;}
 
 .port-right div{
-    text-align: start;
+    margin-bottom: 20px;
     font-size: 24px;
+    
 }
 
 .port-bottom{
@@ -816,7 +800,8 @@
 .how-decs{
     color: white;
     font-size: 20px;
-    padding: 0 100px;
+    padding: 0 200px;
+    margin: 40px;
 }
 
 .hcard{
@@ -830,6 +815,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 20px;
     
     
 }
@@ -933,12 +919,17 @@
 }
 
 .getstarted-sec{
-    padding: 0 200px;
+    padding: 0 50px;
 }
 
 .get-cont{
     flex-direction: row;
     min-height: 0vh;
+    padding:10px 100px;
+}
+
+.get-text{
+    padding: 0 50px;
 }
 
 }

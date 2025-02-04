@@ -182,7 +182,7 @@ body[dir="rtl"] {
 
 .mid-icons i {
   font-size: 48px;
-  color: #f131f5;
+  color: #c300c6;
   margin: 0 30px;
 }
 
@@ -192,8 +192,11 @@ body[dir="rtl"] {
 }
 
 #phone {
-  color: #f131f5;
-  font-size: 80px;
+  color: #c300c6;
+  border: #c300c6 2px solid;
+  padding: 20px;
+  border-radius: 100%;
+  font-size: 50px;
   margin: 25px 0;
 }
 
@@ -328,12 +331,12 @@ body[dir="rtl"] {
 
 .navbar-item.language-switcher span:hover {
   transform: scale(1.2);
-  color: #f131f5;
+  color: #c300c6;
 }
 
 .navbar-item.language-switcher .active {
   font-weight: bold;
-  color: #f131f5;
+  color: #c300c6;
 }
 
 
@@ -380,12 +383,12 @@ body[dir="rtl"] {
 
   .navbar-item.active {
     background: none;
-    color: #f131f5;
+    color: #c300c6;
     border-radius: 20px;
   }
 
   .navbar-item:hover {
-    color: #f131f5;
+    color: #c300c6;
     background: none;
   }
 
