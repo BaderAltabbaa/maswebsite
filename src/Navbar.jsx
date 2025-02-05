@@ -36,6 +36,7 @@ function Navbar({ selectedComponent, setSelectedComponent }) {
     "services",
     "portfolio",
     "pricing",
+    "blockChain",
     "blog",
     "contactUs",
     "aboutUs",

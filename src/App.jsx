@@ -9,6 +9,7 @@ import OurProfiles from "./components/OurProfiles";
 import Portfolio from "./components/Portfolio";
 import Pricing from "./components/Pricing";
 import Services from "./components/Services";
+import BlockChain from "./components/BlockChain";
 import { useTranslation } from "react-i18next";
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
         {selectedComponent === "portfolio" && <Portfolio />}
         {selectedComponent === "aboutUs" && <AboutUs />}
         {selectedComponent === "contactUs" && <ContactUs />}
+        {selectedComponent === "blockChain" && <BlockChain />}
         
       </div>
       <Footer selectedComponent={selectedComponent} setSelectedComponent={setSelectedComponent} />

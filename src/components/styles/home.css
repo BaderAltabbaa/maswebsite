@@ -141,7 +141,7 @@
     width: 100%;
     min-width: 200px;
     min-height: 400px;
-    background-color: #390f52;
+    background: linear-gradient(#260837,#390f52);
     border: 1px solid #390f52;
     opacity: 0;
     transform: translateX(-50%);

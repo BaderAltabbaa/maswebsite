@@ -368,7 +368,7 @@ body[dir="rtl"] {
 
   .navbar-item {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
     font-family: Verdana, sans-serif;
     white-space: nowrap;
@@ -378,7 +378,8 @@ body[dir="rtl"] {
   }
 
   html[dir="rtl"] .navbar-item{
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: bold;
   }
 
   .navbar-item.active {

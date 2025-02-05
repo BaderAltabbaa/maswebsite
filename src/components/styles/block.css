@@ -1,0 +1,197 @@
+.blockdev-card{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.blockdev-card-cont{
+    margin:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+
+.blockdev-card-body{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 2px rgba(255, 255, 255, 0.432);
+    border-radius: 25px;
+    padding: 30px;
+    height: 250px;
+    width: 100%;
+    background: linear-gradient(#390f52,#54107c,#390f52);
+    opacity: 0; 
+    transform: translateX(-50%);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+
+}
+
+.blockdev-card-body.animate {
+    opacity: 1; 
+    transform: translateX(0); 
+  }
+
+.blockdev-card-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blockdev-card-title{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.blockdev-card-desc{
+    font-size: 19px;
+    color: white;
+}
+
+
+.block-sol-section,.block-expert-section,.block-process-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sol-title ,.cur-title,.process-title{
+    color:#ffffff;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.process-desc{
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.block-process-section img{
+    width: 100%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.block-process-section img.animate-left{
+    opacity: 1;
+    transform: translateX(0); 
+}
+
+
+.blocksol-card-cont{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 30px;
+    padding: 50px 40px;
+}
+
+.blocksol-card-body{
+     
+    border-radius: 20px;
+    padding: 25px;
+    width: 400px;
+    min-height: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: solid 1px white;
+    background-color: #2a1138;
+    color: rgb(163, 163, 163);
+    text-align: center;
+    opacity: 0; 
+  transform: translateY(50px); 
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.blocksol-card-body.animate {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+
+  .blocksol-card-text{
+    display: flex;
+    flex-direction: column;
+  }
+  .blocksol-card-title{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .blocksol-card-desc{
+    font-size: 17px;
+  }
+
+  .block-sol-section{
+    padding-top: 50px;
+    background-color: #21082f;
+  }
+
+  .cur-img img{
+    border-radius: 15px;
+
+  }
+
+@media (min-width: 768px){
+    .blockdev-card-cont{
+        padding: 0 300px;
+    }
+
+    .blockdev-card-title{
+        font-size: 35px;
+    }
+    .blockdev-card-desc{
+        font-size: 22px;
+        text-align: start;
+    }
+
+    .blockdev-card-body:nth-child(1),.blockdev-card-body:nth-child(3){
+        position: relative;
+        left:20%;
+    }
+
+    .blockdev-card-body:nth-child(2),.blockdev-card-body:nth-child(4){
+        position: relative;
+        right:20%;
+        background: linear-gradient(#54107c,#2a0142,#54107c);
+
+    }
+
+    .sol-title{
+        padding: 0px 140px;
+        font-size: 50px;
+        
+    }
+
+    .cur-title,.process-title{
+        font-size: 40px;
+    }
+
+    .blocksol-card-cont{grid-template-columns: 1fr 1fr 1fr;}
+
+    .block-process-section img{
+        width: 60%;
+    }
+    .process-desc{
+        font-size: 18px;
+        padding: 0 200px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .blocksol-card-cont{
+      grid-template-columns: 1fr 1fr;
+    }
+  }

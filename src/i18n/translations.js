@@ -1,3 +1,5 @@
+import BlockChain from "../components/BlockChain";
+
 const resources = {
   en: {
     translation: {
@@ -5,6 +7,7 @@ const resources = {
         home: "Home",
         aboutUs: "About Us",
         ourProfile: "Our Profile",
+        blockChain: "BlockChain",
         contactUs: "Contact Us",
         blog: "Blog",
         portfolio: "Portfolio",
@@ -358,6 +361,158 @@ const resources = {
                 textv:"Voice-overing is delivering scripted content with a skilled, engaging voice artist."
               },
             
+          },
+          blockChain:{
+            title:"BlockChain Development Services",
+            card:{
+              card1:{
+                title:"Public Blockchain Development",
+                desc:"Public blockchains are open networks that allow anyone to participate in the network i.e. the public blockchain is not licensed. In this type of blockchain, anyone can join a network and read, write, or participate within the blockchain."
+              },
+              card2:{
+                title:"Private Blockchain Development",
+                desc:"The private blockchain is managed by a network administrator and participants need permission to join the network i.e., the private blockchain is a permissioned blockchain. There are one or more businesses that control the network and this leads to trust in other people to do something."
+              },
+              card3:{
+                title:"Consortium Blockchain Development",
+                desc:"Consortium blockchain offers a new kid on the block to join the established structure and share information instead of starting from scratch. These technologies help organizations to find solutions together and save time and development costs. Consortium blockchains are also known as Federated blockchains"
+              },
+              card4:{
+                title:"Hybrid Blockchain Development",
+                desc:"The hybrid blockchain is a different type of blockchain technology that integrates both your public and private blockchain components or attempts to use the appropriate part of both public and private blockchain solutions."
+              },
+            },
+            solTitle:"Blockchain Development Solutions",
+            solcard:{ 
+              card1:{
+                title:"Crypto Exchange",
+                desc:"Crypto exchange is built on a foundation of trust and security, using state-of-the-art security measures to ensure that your assets are always safe. We offer a wide range of trading tools, including real-time market data, advanced charting, and order types, to give you complete control over your trading experience. Margin Trading | Futures Trading | Staking | OTC Trading | Fiat-to-Crypto Trading | Trading Tools | API Access | Types of Exchanges | Trading Pairs | Fees | Liquidity | Security | Integration with Wallets"
+              },
+              card2:{
+                title:"Launchpad",
+                desc:"Launchpads provide a range of services, such as fundraising, token issuance, community building, and marketing, to help projects get off the ground. It often has its own native tokens that can be used to participate in new project offerings and provide incentives for holding and staking. Token launch capabilities | Whitelisting | KYC/AML compliance | Fundraising capabilities | Staking opportunities | Liquidity provision | Smart contract integration | Community building | Auditing"
+              },
+              card3:{
+                title:"DApps",
+                desc:"DApps are built on secure, transparent, and tamper-proof blockchain networks that ensure trust and reliability in every transaction. We use smart contracts to automate processes and enable seamless interactions between users without the need for intermediaries. Open-source development | Decentralized infrastructure | Smart contracts | Tokenization | Community-driven development | Interoperability | Lower barriers to entry | Web 3.0"
+              },
+              card4:{
+                title:"Smart Contract Audit & Development",
+                desc:"Smart Contract Audit and Development services to ensure the security, efficiency, and transparency of your blockchain-based applications. Advanced tools and methodologies to identify and address vulnerabilities and ensure that your smart contracts are safe and reliable. With smart Contract Audit and Development services, you can build trust with your users and stakeholders. Code Review | Testing | Security Analysis | Compliance Review | Performance Review | Optimization | Gas Optimization | Integration | Documentation | Maintenance | Accessibility | Scalability"
+              },
+              card5:{
+                title:"NFT Marketplace",
+                desc:"A blockchain-based NFT marketplace platform offers a user-friendly interface with various filters to search for NFTs based on the creator, collection, or category. The marketplace would also support bidding, auctions, and fixed-price sales. Additionally, it would have robust tools for managing NFT collections, including analytics, insights, and marketing features. Decentralized network | Smart contracts | Security | Authenticity | Transparency | Faster transactions | Global accessibility | No central authority | Low fees | Community-driven | Interoperability"
+              },
+              card6:{
+                title:"Own Blockchain",
+                desc:"Own blockchain with a customizable and secure platform to host your decentralized applications. Create your own native tokens, implement smart contracts, and build your own ecosystem of decentralized applications. However, building your own blockchain requires technical expertise, time, and resources, and it may face challenges such as network scalability, security vulnerabilities, and adoption. Customizability | Security | Decentralization | Scalability | Tokenization | Smart contracts | Interoperability | Governance | Proof of ownership | Faster consensus | Reduced energy consumption"
+              },
+              card7:{
+                title:"DAO Development",
+                desc:"DAO development, building custom solutions with governance rules, decision-making mechanisms, and smart contracts that enable transparency, security, and community participation. Create a truly decentralized and democratic organization that operates with the highest levels of transparency and security. Decentralization | Transparency | Community-driven | Trustless | Programmable | Efficient | Lower Costs | Flexible | Global | Incentivized Participation | Immutable | Secure | Autonomous | Distributed Ownership"
+              },
+              card8:{
+                title:"Tokenization",
+                desc:"Transform your fundraising with asset tokenization. Our blockchain experts utilize agile methodologies and a passion for excellence to deliver customized token development solutions that comply with ERC, TRC, and BEP standards. Fast and secure transactions | Decentralized ecosystem | Smart contract functionality | Interoperability | Governance and voting rights | Asset-backed | Staking and rewards"
+              },
+              card9:{
+                title:"Web/Mobile App",
+                desc:"Web and mobile applications built on blockchain technology to ensure data security and transparency. Decentralized networks to provide a more secure and efficient user experience. Decentralization | Security | Transparency | Smart contracts | Tokenization | Interoperability | Community-driven development | Immutable data storage | Trustless transactions"
+              },
+              card10:{
+                title:"Artificial Intelligence",
+                desc:"Blockchain-based AI service combines AI and blockchain technology to enhance data security, privacy, and transparency. It involves developing machine learning models and deploying AI algorithms on a decentralized network to reduce data manipulation risks. Machine Learning | Natural Language Processing (NLP) | Computer Vision | Robotics | Expert Systems | Neural Networks | Deep Learning | AI Ethics | AI Governance | Explainable AI"
+              },
+              card11:{
+                title:"Multi-level Marketing",
+                desc:"A Blockchain-based MLM (multi-level marketing) platform enables secure and transparent commission payments, eliminating fraud and enhancing trust between participants. Smart contracts automate commission payments, enabling real-time tracking and providing a transparent audit trail. Decentralized network | Smart contracts | Security | Tokenization | Immutable records | Transparency | Faster transactions | Global accessibility | No central authority | Anti-fraud measures | Increased trust"
+              },
+              card12:{
+                title:"Automated Market Maker",
+                desc:"A Blockchain-based AMM (Automated Market Maker) platform enables decentralized and trustless trading of digital assets, offering liquidity and reducing costs. Smart contracts enable automated execution of trades, eliminating the need for intermediaries and enhancing transparency. Decentralized network | Smart contracts | Security | Tokenization | Lower fees | Improved scalability | Liquidity provision | No need for order books | Flexibility | No barriers to entry | Governance Versatile Blockchain Expertise for Your Business Needs"
+              },
+
+            },
+            curTitle:"Versatile Blockchain Expertise for Your Business Needs",
+            curcard:{ 
+              card1:{
+                title:"",
+                desc:"The intensification of Ethereum has absolutely revolutionized the way people perceive blockchain. Our Ethereum development experts help you understand the requirement of implementing the ethereum blockchain in your business."
+              },
+              card2:{
+                title:"",
+                desc:"Binance Smart Chain has become a trending platform for BSC-based Defi applications. We offer end-to-end Binance Smart chain development services to open up new opportunities with the latest innovations for upcoming projects."
+              },
+              card3:{
+                title:"",
+                desc:"Algorand is a decentralized permissionless blockchain protocol that anyone can use to improve applications and transfer value. Algorand protocol is powered by a novel algorithm consensus that enables fast, secure, and measurable transactions."
+              },
+              card4:{
+                title:"",
+                desc:"Cardano is just an open-source blockchain based on peer-reviewed research. Our team follows the right strategy to build cardano dApps that align with the agile methodology."
+              },
+              card5:{
+                title:"",
+                desc:"Solana is one of the innovative digital solutions aiming to make blockchain networks more enduring, faster, and scalable. We specialize in Solana-based decentralized apps, smart contracts, and NFT marketplaces."
+              },
+              card6:{
+                title:"",
+                desc:"Matic/Polygon network gives secure, scalable, and instant Ethereum transactions. We have become experts in providing high level enterprise solutions and services"
+              },
+              card7:{
+                title:"",
+                desc:"The Polkadot protocol is inherited with parachain to meet various services like identity management and service for finance on several blockchains. With multiple developmental experts across the Polkadot blockchain network, we help you transfer information easily and make advanced applications."
+              },
+              card8:{
+                title:"",
+                desc:"The Stellar platform effortlessly connects payment providers throughout the world, enabling interoperability. Stellar Consulting | Smart Contract | DApps | Smart Contract Audit | Stellar Wallet | Token"
+              },
+              card9:{
+                title:"",
+                desc:"Theta is essentially an open-source protocol that uses blockchain and allows users to build dApps on it, like ethereum. It is a decentralized platform that focuses on video delivery on a peer-to-peer basis and makes it better for all users worldwide."
+              },
+              card10:{
+                title:"",
+                desc:"EOS Blockchain services are market friendly and can access your business potential. We develop decentralized EOS applications that enable high performance with limited free transactions."
+              },
+              card11:{
+                title:"",
+                desc:"Multichain allows for the creation and deployment of private blockchains, especially for financial institutions that require reliable security."
+              },
+              card12:{
+                title:"",
+                desc:"The rise of TRON Blockchain in the world of decentralized networks is a thing of legends. Our TRON dApp developers are skilled at overcoming legacy blockchain network challenges to build efficient and easy to use applications."
+              },
+              card13:{
+                title:"",
+                desc:"The Casper Network is considered to be the first live proof-of-stake blockchain built off the Casper CBC specification. Casper is designed to accelerate enterprise and developer adoption of blockchain technology today and evolve to meet user needs in the future."
+              },
+              card14:{
+                title:"",
+                desc:"The solidity development allows a secure and reliable process for different platforms involved in settlement or agreement between two members. We create and deploy smart contracts with the solidity programming language to leverage arbitrary computations."
+              },
+              card15:{
+                title:"",
+                desc:"The motive of hyperledger is to bring the stakeholders, developers and technology providers together to advance the acquisition of Blockchain solutions and development. With latest technologies and generous resources, we deliver an ideal hyperledger blockchain application services to boost the business transaction cycle & security"
+              },
+              card16:{
+                title:"",
+                desc:"NEAR Protocol is a decentralized application platform with a reliable and strong network designed to help developers create scalable DApps. It offers a number of opportunities for smart contract developers and operates on a PoS consensus algorithm, giving its users the advantage of fast and cheap transaction processing."
+              },
+              card17:{
+                title:"",
+                desc:"Aptos is a Layer 1 Blockchain which is built with a Rust-based programming language called Move. The Aptos Blockchain can reach 160,000 transactions per second (TPS) while maintaining security and reliability. The Aptos Blockchain adds redundancy to its network, rendering it less prone to failure."
+              },
+              card18:{
+                title:"",
+                desc:"Optimism is a fast and stable L2 Blockchain built by professionals in the world's leading Ethereum development community. Optimism’s EVM-equivalent design scales your Ethereum apps without surprises. Optimism has two key features: Lightweight forks and Stateful sharding, which enables fast, stable, and scalable L2 Blockchain."
+              },
+             
+
+            },
+             processtitle:"Blockchain Development Process",
+              processdesc:"Get ready to revolutionize your business with our cutting-edge blockchain development process! Our team of experts uses the latest technology and techniques to create secure, decentralized systems that can transform the way you do business."
           }
             
       
@@ -371,6 +526,7 @@ const resources = {
         home: "الرئيسية",
         aboutUs: " شركة ماس للبرمجة والتسويق",
         ourProfile: " الملف التعريفي بشركة ماس",
+        blockChain: "بلوكشين ",
         contactUs: "تواصل معنا",
         blog: "المقالات",
         portfolio: "أعمالنا",
@@ -686,6 +842,156 @@ const resources = {
                 textv:"المعلق الصوتي لدينا يعطي الفديو معنى حقيقي و يجذب العملاء اكثر"
               ,
             }
+          },
+          blockChain:{
+            title: "خدمات تطوير البلوكشين",
+            card: {
+                card1: {
+                    title: "تطوير البلوكشين العام",
+                    desc: "البلوكشين العام هو شبكة مفتوحة تتيح لأي شخص المشاركة فيها، أي أن البلوكشين العام غير مرخص. في هذا النوع من البلوكشين، يمكن لأي شخص الانضمام إلى الشبكة والقراءة أو الكتابة أو المشاركة داخل البلوكشين."
+                },
+                card2: {
+                    title: "تطوير البلوكشين الخاص",
+                    desc: "يتم إدارة البلوكشين الخاص بواسطة مسؤول الشبكة، ويحتاج المشاركون إلى إذن للانضمام إلى الشبكة، أي أن البلوكشين الخاص هو بلوكشين مُرخّص. هناك شركة واحدة أو أكثر تتحكم في الشبكة، مما يعزز الثقة بين المستخدمين."
+                },
+                card3: {
+                    title: "تطوير بلوكشين التحالف",
+                    desc: "يوفر بلوكشين التحالف طريقة جديدة للمؤسسات للانضمام إلى هيكل قائم ومشاركة المعلومات بدلاً من البدء من الصفر. تساعد هذه التقنيات المنظمات على إيجاد حلول مشتركة، مما يوفر الوقت وتكاليف التطوير. يُعرف بلوكشين التحالف أيضًا باسم بلوكشين الاتحادي."
+                },
+                card4: {
+                    title: "تطوير البلوكشين الهجين",
+                    desc: "البلوكشين الهجين هو نوع مختلف من تكنولوجيا البلوكشين، حيث يدمج بين مكونات البلوكشين العام والخاص أو يستخدم الجزء المناسب من كل منهما لتحقيق أفضل الحلول."
+                }
+            },
+            solTitle: "حلول تطوير البلوكشين",
+            solcard: {
+              card1: {
+                title: "منصة تبادل العملات الرقمية",
+                desc: "تم بناء منصات تبادل العملات الرقمية على أساس الثقة والأمان، باستخدام أحدث تدابير الأمان لضمان سلامة أصولك دائمًا. نقدم مجموعة واسعة من أدوات التداول، بما في ذلك بيانات السوق في الوقت الفعلي، الرسوم البيانية المتقدمة، وأنواع الطلبات، مما يمنحك تحكمًا كاملاً في تجربة التداول الخاصة بك. التداول بالهامش | تداول العقود الآجلة | التخزين (Staking) | التداول خارج السوق (OTC) | التداول بين العملات الورقية والعملات الرقمية | أدوات التداول | الوصول إلى واجهات برمجة التطبيقات (API) | أنواع التبادلات | أزواج التداول | الرسوم | السيولة | الأمان | التكامل مع المحافظ"
+              },
+              card2: {
+                title: "منصة الإطلاق",
+                desc: "تقدم منصات الإطلاق مجموعة من الخدمات، مثل جمع الأموال، إصدار التوكنات، بناء المجتمع، والتسويق لمساعدة المشاريع على الانطلاق. غالبًا ما تمتلك رموزها الأصلية التي يمكن استخدامها للمشاركة في العروض الجديدة وتحفيز الاحتفاظ بها وتخزينها. إمكانيات إطلاق التوكنات | القوائم البيضاء | الامتثال لمتطلبات KYC/AML | قدرات جمع الأموال | فرص التخزين | توفير السيولة | تكامل العقود الذكية | بناء المجتمع | التدقيق"
+              },
+              card3: {
+                title: "التطبيقات اللامركزية (DApps)",
+                desc: "تُبنى التطبيقات اللامركزية على شبكات بلوكشين آمنة وشفافة وغير قابلة للتلاعب، مما يضمن الثقة والمصداقية في كل معاملة. نستخدم العقود الذكية لأتمتة العمليات وتمكين التفاعلات السلسة بين المستخدمين دون الحاجة إلى وسطاء. تطوير مفتوح المصدر | بنية تحتية لامركزية | عقود ذكية | التوكنات | تطوير مدفوع بالمجتمع | التشغيل البيني | تقليل الحواجز للدخول | ويب 3.0"
+              },
+              card4: {
+                title: "تدقيق وتطوير العقود الذكية",
+                desc: "خدمات تدقيق وتطوير العقود الذكية لضمان الأمان والكفاءة والشفافية في تطبيقاتك القائمة على البلوكشين. نستخدم أدوات وتقنيات متقدمة لاكتشاف الثغرات ومعالجتها لضمان أن عقودك الذكية آمنة وموثوقة. مراجعة الكود | الاختبار | تحليل الأمان | مراجعة الامتثال | مراجعة الأداء | التحسين | تحسين استهلاك الغاز | التكامل | التوثيق | الصيانة | سهولة الوصول | القابلية للتوسع"
+              },
+              card5: {
+                title: "سوق NFT",
+                desc: "منصة سوق NFT القائمة على البلوكشين توفر واجهة مستخدم سهلة الاستخدام مع مجموعة متنوعة من الفلاتر للبحث عن NFTs بناءً على المنشئ أو المجموعة أو الفئة. يدعم السوق أيضًا المزايدة، المزادات، والمبيعات بالسعر الثابت، إلى جانب أدوات قوية لإدارة المجموعات، بما في ذلك التحليلات والرؤى وميزات التسويق. شبكة لامركزية | عقود ذكية | أمان | أصالة | شفافية | معاملات أسرع | وصول عالمي | بدون سلطة مركزية | رسوم منخفضة | مدفوع بالمجتمع | التشغيل البيني"
+              },
+              card6: {
+                title: "البلوكشين الخاص بك",
+                desc: "أنشئ بلوكشين مخصصًا وآمنًا لاستضافة تطبيقاتك اللامركزية. يمكنك إنشاء توكناتك الأصلية، تنفيذ العقود الذكية، وبناء نظام بيئي متكامل من التطبيقات اللامركزية. ومع ذلك، يتطلب بناء بلوكشين خاص مهارات تقنية، وقت، وموارد، وقد يواجه تحديات مثل قابلية التوسع، الثغرات الأمنية، والتبني. التخصيص | الأمان | اللامركزية | القابلية للتوسع | التوكنات | العقود الذكية | التشغيل البيني | الحوكمة | إثبات الملكية | توافق أسرع | تقليل استهلاك الطاقة"
+              },
+              card7: {
+                title: "تطوير المنظمات المستقلة اللامركزية (DAO)",
+                desc: "نطور حلول DAO مخصصة بقواعد حوكمة وآليات اتخاذ قرارات قائمة على العقود الذكية لضمان الشفافية، الأمان، ومشاركة المجتمع. يمكنك إنشاء منظمة لامركزية وديمقراطية تعمل بأقصى درجات الشفافية والأمان. اللامركزية | الشفافية | مدفوع بالمجتمع | بدون وسطاء | قابل للبرمجة | فعال | تكلفة أقل | مرونة | عالمي | تحفيز المشاركة | غير قابل للتغيير | آمن | ذاتي التشغيل | ملكية موزعة"
+              },
+              card8: {
+                title: "تحويل الأصول إلى توكنات",
+                desc: "حوّل جمع الأموال لديك باستخدام تقنيات التوكنات. يستفيد خبراؤنا في البلوكشين من منهجيات تطوير مرنة وشغف بالكمال لتقديم حلول تطوير توكنات مخصصة متوافقة مع معايير ERC وTRC وBEP. معاملات سريعة وآمنة | بيئة لامركزية | وظائف العقود الذكية | التشغيل البيني | حقوق الحوكمة والتصويت | أصول مدعومة | التخزين والمكافآت"
+              },
+              card9: {
+                title: "تطبيقات الويب والموبايل",
+                desc: "تطبيقات الويب والموبايل القائمة على تقنية البلوكشين لضمان أمان البيانات والشفافية. توفر الشبكات اللامركزية تجربة مستخدم أكثر أمانًا وكفاءة. اللامركزية | الأمان | الشفافية | العقود الذكية | التوكنات | التشغيل البيني | تطوير مدفوع بالمجتمع | تخزين بيانات غير قابل للتغيير | معاملات موثوقة"
+              },
+              card10: {
+                title: "الذكاء الاصطناعي",
+                desc: "يعمل الذكاء الاصطناعي القائم على البلوكشين على تحسين أمان البيانات، الخصوصية، والشفافية. يتضمن تطوير نماذج تعلم الآلة ونشر خوارزميات الذكاء الاصطناعي على شبكة لامركزية لتقليل مخاطر التلاعب بالبيانات. تعلم الآلة | معالجة اللغة الطبيعية (NLP) | الرؤية الحاسوبية | الروبوتات | الأنظمة الخبيرة | الشبكات العصبية | التعلم العميق | أخلاقيات الذكاء الاصطناعي | حوكمة الذكاء الاصطناعي | الذكاء الاصطناعي القابل للتفسير"
+              },
+              card11: {
+                title: "التسويق الهرمي متعدد المستويات (MLM)",
+                desc: "توفر منصات التسويق متعدد المستويات القائمة على البلوكشين مدفوعات عمولة شفافة وآمنة، مما يلغي الاحتيال ويعزز الثقة بين المشاركين. تقوم العقود الذكية بأتمتة المدفوعات، مما يتيح تتبعًا في الوقت الفعلي ويوفر مسار تدقيق شفافًا. شبكة لامركزية | عقود ذكية | أمان | توكنات | سجلات غير قابلة للتغيير | شفافية | معاملات أسرع | وصول عالمي | بدون سلطة مركزية | تدابير مكافحة الاحتيال | زيادة الثقة"
+              },
+              card12: {
+                title: "صانع السوق الآلي (AMM)",
+                desc: "تتيح منصات AMM القائمة على البلوكشين التداول اللامركزي والموثوق للأصول الرقمية، مما يوفر السيولة ويقلل التكاليف. تتيح العقود الذكية تنفيذ الصفقات تلقائيًا، مما يلغي الحاجة إلى الوسطاء ويعزز الشفافية. شبكة لامركزية | عقود ذكية | أمان | توكنات | رسوم منخفضة | تحسين القابلية للتوسع | توفير السيولة | عدم الحاجة إلى دفاتر الطلبات | مرونة | لا توجد حواجز دخول | حوكمة"
+              }
+            },
+            
+            curTitle: "خبرة شاملة في تقنية البلوكشين لتلبية احتياجات عملك",
+curcard: {
+  card1: {
+    title: "",
+    desc: "أدى تطور الإيثريوم إلى إحداث ثورة حقيقية في طريقة فهم الناس لتقنية البلوكشين. يساعدك خبراؤنا في تطوير الإيثريوم على فهم متطلبات تنفيذ بلوكشين الإيثريوم في عملك."
+  },
+  card2: {
+    title: "",
+    desc: "أصبحت سلسلة Binance Smart Chain منصة رائجة لتطبيقات التمويل اللامركزي (DeFi) القائمة على BSC. نحن نقدم خدمات تطوير Binance Smart Chain الشاملة لفتح فرص جديدة من خلال أحدث الابتكارات للمشاريع القادمة."
+  },
+  card3: {
+    title: "",
+    desc: "ألغوراند هو بروتوكول بلوكشين لا مركزي ومفتوح يمكن لأي شخص استخدامه لتحسين التطبيقات ونقل القيمة. يعتمد بروتوكول Algorand على خوارزمية توافق مبتكرة تتيح معاملات سريعة وآمنة وقابلة للقياس."
+  },
+  card4: {
+    title: "",
+    desc: "كاردانو هو مجرد بلوكشين مفتوح المصدر يعتمد على الأبحاث العلمية المحكّمة. يتبع فريقنا الاستراتيجية المناسبة لبناء تطبيقات dApps على كاردانو بما يتماشى مع منهجية التطوير المرنة (Agile)."
+  },
+  card5: {
+    title: "",
+    desc: "سولانا هي واحدة من الحلول الرقمية المبتكرة التي تهدف إلى جعل شبكات البلوكشين أكثر استدامة وسرعة وقابلية للتوسع. نحن متخصصون في تطوير التطبيقات اللامركزية (dApps) والعقود الذكية وأسواق NFT القائمة على سولانا."
+  },
+  card6: {
+    title: "",
+    desc: "توفر شبكة Matic/Polygon معاملات إيثريوم آمنة وقابلة للتوسع وفورية. أصبحنا خبراء في تقديم حلول وخدمات المؤسسات على مستوى عالٍ."
+  },
+  card7: {
+    title: "",
+    desc: "تم تصميم بروتوكول Polkadot مع بنية باراشين (Parachain) لدعم خدمات متعددة مثل إدارة الهوية والخدمات المالية على عدة سلاسل بلوكشين. بفضل خبرائنا في تطوير Polkadot، نساعدك على نقل المعلومات بسهولة وإنشاء تطبيقات متقدمة."
+  },
+  card8: {
+    title: "",
+    desc: "تمكّن منصة Stellar مزودي الدفع في جميع أنحاء العالم من الاتصال بسلاسة، مما يعزز التشغيل البيني. استشارات Stellar | العقود الذكية | التطبيقات اللامركزية (DApps) | تدقيق العقود الذكية | محفظة Stellar | التوكنات"
+  },
+  card9: {
+    title: "",
+    desc: "Theta هو بروتوكول مفتوح المصدر يستخدم تقنية البلوكشين ويسمح للمستخدمين بإنشاء تطبيقات لامركزية (dApps) عليه، مثل الإيثريوم. يركز على توزيع الفيديو بنظام نظير إلى نظير (P2P)، مما يجعله أكثر كفاءة لجميع المستخدمين حول العالم."
+  },
+  card10: {
+    title: "",
+    desc: "تتيح خدمات بلوكشين EOS إمكانية الوصول إلى إمكانات أعمالك بطريقة سهلة وموجهة نحو السوق. نقوم بتطوير تطبيقات EOS اللامركزية التي تقدم أداءً عاليًا مع معاملات مجانية محدودة."
+  },
+  card11: {
+    title: "",
+    desc: "يوفر Multichain إمكانية إنشاء ونشر شبكات بلوكشين خاصة، خاصة للمؤسسات المالية التي تحتاج إلى أمان موثوق."
+  },
+  card12: {
+    title: "",
+    desc: "يُعد صعود بلوكشين TRON في عالم الشبكات اللامركزية حدثًا أسطوريًا. يتمتع مطورو تطبيقات TRON لدينا بالمهارات اللازمة للتغلب على تحديات شبكات البلوكشين القديمة لبناء تطبيقات فعالة وسهلة الاستخدام."
+  },
+  card13: {
+    title: "",
+    desc: "يعتبر Casper Network أول بلوكشين يعمل بآلية إثبات الحصة (PoS) ويعتمد على مواصفات Casper CBC. تم تصميم Casper لتسريع تبني المؤسسات والمطورين لتقنية البلوكشين اليوم، مع القدرة على التطور لتلبية احتياجات المستخدمين في المستقبل."
+  },
+  card14: {
+    title: "",
+    desc: "يوفر تطوير Solidity عملية آمنة وموثوقة للمنصات المختلفة التي تتطلب تسوية أو اتفاقًا بين طرفين. نقوم بإنشاء ونشر العقود الذكية باستخدام لغة البرمجة Solidity للاستفادة من العمليات الحسابية العشوائية."
+  },
+  card15: {
+    title: "",
+    desc: "يهدف Hyperledger إلى جمع أصحاب المصلحة والمطورين ومقدمي التكنولوجيا معًا لتعزيز اعتماد حلول وتطوير البلوكشين. من خلال أحدث التقنيات والموارد الغنية، نقدم خدمات تطبيقات بلوكشين Hyperledger المثالية لتعزيز دورة المعاملات التجارية والأمان."
+  },
+  card16: {
+    title: "",
+    desc: "NEAR Protocol هو منصة تطبيقات لامركزية تتميز بشبكة موثوقة وقوية تساعد المطورين على إنشاء تطبيقات قابلة للتوسع. يوفر العديد من الفرص لمطوري العقود الذكية ويعمل على خوارزمية إثبات الحصة (PoS)، مما يمنح المستخدمين ميزة معالجة المعاملات بسرعة وتكلفة منخفضة."
+  },
+  card17: {
+    title: "",
+    desc: "Aptos هو بلوكشين من الطبقة الأولى (Layer 1) تم بناؤه باستخدام لغة البرمجة Move المستندة إلى Rust. يمكن لبلوكشين Aptos معالجة 160,000 معاملة في الثانية (TPS) مع الحفاظ على الأمان والموثوقية. كما يضيف Aptos تكرارًا إلى شبكته، مما يجعله أقل عرضة للأعطال."
+  },
+  card18: {
+    title: "",
+    desc: "Optimism هو بلوكشين من الطبقة الثانية (L2) سريع ومستقر، تم إنشاؤه بواسطة محترفين في مجتمع تطوير الإيثريوم الرائد عالميًا. يعتمد تصميم Optimism المتوافق مع EVM على مبدأ توسيع نطاق تطبيقات الإيثريوم دون أي مفاجآت. يتميز Optimism بميزتين رئيسيتين: التفرعات الخفيفة (Lightweight forks) والتجزئة المعتمدة على الحالة (Stateful sharding)، مما يجعله بلوكشين L2 سريعًا ومستقرًا وقابلًا للتوسع."
+  }
+},
+processtitle: "عملية تطوير البلوكشين",
+processdesc: "استعد لثورة في عملك مع عملية تطوير البلوكشين المتقدمة لدينا! يستخدم فريقنا من الخبراء أحدث التقنيات والأساليب لإنشاء أنظمة لامركزية آمنة يمكن أن تغير طريقة عملك."
           }
     },
   },
