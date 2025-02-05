@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 function  CurCard(src) {
 
   const { ref, inView } = useInView({
-    threshold: 0.2, 
+    threshold: 0.05, 
     triggerOnce: true, 
   });
 
@@ -113,7 +113,7 @@ function  CurCard(src) {
           <div
             key={index}
             className={`blocksol-card-body ${inView ? "animate" : ""}`}
-            style={{ transitionDelay: `${index * 0.3}s` }} 
+            style={{ transitionDelay: `${index * 0.5}s` }} 
           >
             <div className="cur-img">
         <img src={card.src} alt="" />
