@@ -1,3 +1,6 @@
+
+
+
 .blockdev-card{
     display: flex;
     justify-content: center;
@@ -102,10 +105,12 @@
 }
 
 .blocksol-card-body{
-     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
     border-radius: 20px;
     padding: 25px;
-    width: 400px;
+    width: 300px;
     min-height: 300px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: solid 1px white;
