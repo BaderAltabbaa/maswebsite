@@ -280,6 +280,11 @@
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 100px;
+  background-color: #290b3b;
+  padding:60px 120px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.432);
+
  
   
 }

@@ -42,15 +42,16 @@ function Navbar({ selectedComponent, setSelectedComponent }) {
     "aboutUs",
   ];
 
-  return (
-    <div className="container">
-      <div className="logo">
+  return (<>
+    <div className="logo">
         <img
           src="cropped-LOGO-PNG-MAS-COMPANY1-300x132.webp"
           alt=""
           onClick={() => handleItemClick("home")}
         />
       </div>
+    <div className="container">
+      
       <div>
         {isMobile ? (
           <div className={`burger-menu ${isBurgerMenuOpen ? "open" : ""}`}>
@@ -136,6 +137,7 @@ function Navbar({ selectedComponent, setSelectedComponent }) {
         <i className="fab fa-whatsapp"></i>
       </a>
     </div>
+    </>
   );
 }
 

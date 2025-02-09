@@ -25,9 +25,7 @@ body[dir="rtl"] {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container[dir="rtl"] {
-  flex-direction: row-reverse;
-}
+
 
 .navbar-item {
   text-align: center;
@@ -70,17 +68,35 @@ body[dir="rtl"] {
 
 .logo { 
   cursor: grab;
+  position: absolute;
+  left: 20px;
+  top: 10px;
 }
+
+:dir(rtl) .container{
+  justify-content: left;
+  
+}
+
+:dir(rtl) .logo{
+  right: 20px;
+}
+
+:dir(rtl) .logo img{
+  width: 40%;
+}
+
 
 .logo img {
   width: 60%;
 }
 
+
 .container {
-  padding: 16px 32px;
+  padding: 32px 32px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
   margin-bottom: 20px;
   margin-right: 0;
@@ -347,24 +363,21 @@ body[dir="rtl"] {
     flex-direction: row;
     align-items: center;
   }
-  :dir(rtl) .list{
-    position: relative;
-    right:6%;
-  }
+  
 
   .logo img {
-    width: 85%;
+    width: 75%;
+  }
+
+  :dir(rtl) .logo {
+      right: 10px;
   }
 
   :dir(rtl) .logo img{
-    width: 110%;
+    width: 14%;
   }
 
-  html[dir="rtl"] .container {
-     
-    margin-left: 15%; 
-    margin-right: 0; 
-  }
+ 
 
   .navbar-item {
     color: rgb(255, 255, 255);
@@ -399,8 +412,8 @@ body[dir="rtl"] {
     align-items: center;
   }
 
-  .container {
-    margin-right: 15%;
+  .container ,:dir(rtl).container{
+    justify-content: center;
   }
 
   .footer {

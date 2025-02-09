@@ -24,6 +24,19 @@ const BlockChain = () => {
         </div>
       </div>
 
+      <div className="block-process-section">
+      <span className='process-title'>{t('blockChain.processtitle')}</span>
+      <span className='process-desc'>{t('blockChain.processdesc')}</span>
+      <img
+        ref={ref}
+        src="blockchain.png"
+        alt=""
+        className={`process-image ${inView ? "animate-left" : ""}`}
+      />
+
+
+      </div>
+
       <div className="block-dev-type-section">
           <BlockDevCard></BlockDevCard>
       </div>
@@ -39,18 +52,7 @@ const BlockChain = () => {
       <CurCard></CurCard>
       </div>
 
-      <div className="block-process-section">
-      <span className='process-title'>{t('blockChain.processtitle')}</span>
-      <span className='process-desc'>{t('blockChain.processdesc')}</span>
-      <img
-        ref={ref}
-        src="blockchain.png"
-        alt=""
-        className={`process-image ${inView ? "animate-left" : ""}`}
-      />
-
-
-      </div>
+     
     </>
 }
 
