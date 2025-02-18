@@ -43,6 +43,8 @@ function Navbar({ selectedComponent, setSelectedComponent }) {
   ];
 
   return (<>
+    
+    <div className="container">
     <div className="logo">
         <img
           src="cropped-LOGO-PNG-MAS-COMPANY1-300x132.webp"
@@ -50,7 +52,6 @@ function Navbar({ selectedComponent, setSelectedComponent }) {
           onClick={() => handleItemClick("home")}
         />
       </div>
-    <div className="container">
       
       <div>
         {isMobile ? (
@@ -109,7 +110,11 @@ function Navbar({ selectedComponent, setSelectedComponent }) {
               </div>
             ))}
             
-            <div className="navbar-item language-switcher">
+           
+          </div>
+        )}
+      </div>
+      <div className="langswitcher">
               <span
                 onClick={() => switchLanguage("en")}
                 className={activeLang === "en" ? "active" : ""}
@@ -124,9 +129,6 @@ function Navbar({ selectedComponent, setSelectedComponent }) {
                   🇦🇷
               </span>
             </div>
-          </div>
-        )}
-      </div>
       
            <a
         href="https://wa.me/905365439850"

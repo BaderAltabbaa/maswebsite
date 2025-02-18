@@ -9,6 +9,7 @@
 .faq-top{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 25px;
     opacity: 0; 
     transform: translateX(-50%); 
@@ -111,15 +112,27 @@
       transform: translateY(0);
     }
   }
+
+  .questimg{
+    width: 50%;
+    padding: 20px;
+    border-radius: 50px;
+  }
   
   @media (min-width: 768px) {
 
     .faq-sec{
         flex-direction: row;
-        
         justify-content: center;
         padding: 50px 80px;
     }
+    .faq-top{
+      align-items: start;
+    }
+
+   .faq-container{
+    min-width: 750px;
+   }
 
     .faq-title2{
         font-size: 40px;

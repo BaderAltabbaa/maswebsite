@@ -210,7 +210,7 @@ const Home = () => {
           className={`img-cont ${imgInView ? "animate-right" : ""}`}
           ref={imgRef}
         >
-      <img src="Asset 2.png" alt="" />
+      <img src="man.png" alt="" />
       </div>
       </div>
      </div>

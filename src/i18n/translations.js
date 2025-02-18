@@ -1,4 +1,3 @@
-import BlockChain from "../components/BlockChain";
 
 const resources = {
   en: {
@@ -41,8 +40,8 @@ const resources = {
           desc4: " Pioneering Creative Solutions and Redefining Industries for a Dynamic Future Focused on Excellence and Progress",
           desc5: "",
           learnMore: "Learn More",
-          typemoblie: "Mobile Application",
-          typeweb: "Web Site",
+          typemoblie: " APP",
+          typeweb: "WebSite",
           subtitle: "Portfolio",
           subtext:"Our mission is to make your business better through technology"
         },
@@ -563,7 +562,7 @@ const resources = {
           typemoblie: "تطبيقات الجوال",
           typeweb: "موقع الكتروني",
           subtitle: "اعمالنا",
-          subtext:"بخبرة تجاوزت الخمس سنوات في مجال برمجة وتشغيل المشاريع الرقمية نقدم لكم انفسنا كشركاء لنجاح اعمالكم في مجال التجارة و الخدمات الرقمية ."
+          subtext: "مهمتنا هي جعل اعمالك افضل مايمكن من خلالنا"
         
         },
 
@@ -731,8 +730,7 @@ const resources = {
         },
         service: {
           title:"الخدمات",
-          subtitle:"بخبرة تجاوزت الخمس سنوات في مجال برمجة وتشغيل المشاريع الرقمية نقدم لكم انفسنا كشركاء لنجاح اعمالكم في مجال التجارة و الخدمات الرقمية ."
-        },
+          subtitle: "مهمتنا هي جعل اعمالك افضل مايمكن من خلالنا"        },
         
           faq: {
             title:"الأسئلة الشائعة",
@@ -831,11 +829,11 @@ const resources = {
               ,
               
                 titlew:"برمجة المواقع الالكترونية",
-                textw:"تطوير الويب يقوم بإنشاء وصيانة المواقع الإلكترونية من خلال البرمجة والتصميم لتحقيق الوظائف عبر الإنترنت."
+                textw:"تطوير الويب يقوم بإنشاء وصيانة المواقع الإلكترونية من خلال البرمجة والتصميم."
               ,
               
                 titlem:"تطوير وبرمجة تطبيقات الهاتف",
-                textm:"تطوير تطبيقات الهواتف المحمولة يشمل تصميم وبرمجة واختبار ونشر البرمجيات المصممة خصيصًا للأجهزة المحمولة، ويشمل جميع مراحل التطوير من الفكرة إلى التصميم والترميز والاختبار والتشغيل ."
+                textm:"تطوير تطبيقات الهواتف المحمولة يشمل تصميم وبرمجة واختبار ونشر البرمجيات المصممة خصيصًا للأجهزة المحمولة ."
               ,
               
                 titlev:"التعليق الصوتي",

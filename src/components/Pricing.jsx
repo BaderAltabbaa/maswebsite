@@ -79,6 +79,8 @@ const Pricing = () => {
       <span className='faq-title'>{t("faq.title")}</span>
         <span className='faq-title2'>{t("faq.title2")}</span>
         <span className='faq-desc'>{t("faq.desc")}</span>
+        <img className='questimg' src="question.webp" alt="" />
+
       </div>
       
       <div className={`faq-bottom ${inView4 ? 'animate' : ''}`} ref={ref4}>

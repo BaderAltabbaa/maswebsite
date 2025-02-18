@@ -7,7 +7,7 @@
     background-size: cover; 
     background-position: center; 
     width: 100%; 
-    height: 60vh;
+    height: 100vh;
     position: absolute;
     right: 0;
     top: 0;
@@ -242,7 +242,7 @@
 
 .port-right div{
     text-align: center;
-    color:rgb(103, 102, 102);
+    color:rgb(188, 185, 185);
     font-size: 18px;
     display: flex;
     flex-direction: column;
@@ -480,7 +480,7 @@
 
 .service-title i{
     margin-right: 5px;
-    color:#0494fc;
+    color:#a904fc;
 }
 
 .service-desc{
@@ -555,7 +555,7 @@
     padding: 20px 10px;
     height: 250px;
     max-width: 100%;
-    background-color: #7a4599;
+    background: linear-gradient(to right,#723092,#7a4599);
     border: 2px solid #ffffff; 
     opacity: 0; 
   transform: translateX(-100%); 
@@ -569,7 +569,7 @@
   }
 
 .ccard-body:nth-child(1),.ccard-body:nth-child(3){
-    background-color: #0494fc;
+    background: linear-gradient(to left, #5382a3, #0494fc);
     border: none;
 }
 
@@ -661,6 +661,7 @@
     background-image: url(/kisspng-clip-art-nice-triangle-5aa1cce3ce4c59.458430491520553187845.png);
     background-size:contain;
     background-position: center;
+    margin-top: 20px;
     opacity: 0; 
   transform: translateX(50%); 
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -683,7 +684,7 @@
 @media (min-width: 768px) {
     
 
-.header-sec{height: 80vh;}
+.header-sec{height: 90vh;}
 
 .header-animation{
     display: flex;
@@ -820,9 +821,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
-    
-    
 }
 
 .hcard-body{
@@ -833,7 +831,7 @@
     padding: 30px;
     height: 250px;
     width: 250px;
-    background-color:#390f52; 
+    background: linear-gradient(#43125f,#1d062b);
     opacity: 0; 
     transform: translateX(100%); 
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -846,20 +844,20 @@
   }
 
 .hcard-body:nth-child(1){
-    background-color: #641591;
+    background: linear-gradient(#641591,#9233c9);
     border-radius: 25px 25px 0px 25px;
-    border: 2px solid #641591;
+    border: 2px solid #9233c9;
 }
 
 .hcard-body:nth-child(1):hover,.hcard-body:nth-child(3):hover{
-    border: 2px solid #ffffff;
+    border: 2px solid #a1a1a1;
     transition: ease-out 200ms;
 }
 
 .hcard-body:nth-child(2),.hcard-body:nth-child(4){
     position: relative;
     top: 20%;
-    border: 2px solid #ffffff;
+    border: 2px solid #a1a1a1;
 }
 
 .hcard-body:nth-child(2):hover,.hcard-body:nth-child(4):hover{
@@ -868,7 +866,7 @@
 }
 
 .hcard-body:nth-child(3){
-    background-color: #641591;
+    background: linear-gradient(#641591,#9233c9);
     border-radius: 25px 25px 0 0;
     border: 2px solid #641591;
 }
@@ -940,9 +938,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
-    .header-sec{
-      height: 370px;
-    }
+   
 
     .header-animation{
         display: none;

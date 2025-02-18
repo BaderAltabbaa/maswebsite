@@ -57,10 +57,12 @@ body[dir="rtl"] {
   transition: ease-out 200ms;
 }
 
-.navbar-item:nth-child(9):hover{
-  background-color: white;
-  color: rgb(103, 102, 102);
+.navbar-item:hover:nth-child(10){
+  background: none;
+  color: rgb(29, 29, 29);
 }
+
+
 
 .list {
   display: none;
@@ -68,40 +70,25 @@ body[dir="rtl"] {
 
 .logo { 
   cursor: grab;
-  position: absolute;
-  left: 20px;
-  top: 10px;
 }
-
-:dir(rtl) .container{
-  justify-content: left;
-  
-}
-
-:dir(rtl) .logo{
-  right: 20px;
-}
-
-:dir(rtl) .logo img{
-  width: 40%;
-}
-
 
 .logo img {
   width: 60%;
 }
 
 
+
 .container {
-  padding: 32px 32px;
+  padding: 32px;
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 20px;
   margin-right: 0;
   position: relative;
 }
+
 
 .burger-menu {
   display: flex;
@@ -331,6 +318,10 @@ body[dir="rtl"] {
  
 }
 
+.langswitcher{
+  display: none;
+}
+
 .navbar-item.language-switcher {
   display: flex;
   gap: 10px;
@@ -363,20 +354,6 @@ body[dir="rtl"] {
     flex-direction: row;
     align-items: center;
   }
-  
-
-  .logo img {
-    width: 75%;
-  }
-
-  :dir(rtl) .logo {
-      right: 10px;
-  }
-
-  :dir(rtl) .logo img{
-    width: 14%;
-  }
-
  
 
   .navbar-item {
@@ -386,12 +363,10 @@ body[dir="rtl"] {
     font-family: Verdana, sans-serif;
     white-space: nowrap;
   }
-  .navbar-item:nth-child(9):hover{
-    background: none;
-  }
+  
 
   html[dir="rtl"] .navbar-item{
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
   }
 
@@ -412,8 +387,33 @@ body[dir="rtl"] {
     align-items: center;
   }
 
-  .container ,:dir(rtl).container{
-    justify-content: center;
+  .langswitcher{
+    display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding:0px 10px 8px 10px;
+  }
+
+  .langswitcher span{
+    font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+  color: white;
+  }
+
+  .langswitcher span:hover{
+    transform: scale(1.2);
+    color: #c300c6;
+
+  }
+
+  .langswitcher .active{
+    font-weight: bold;
+  color: #c300c6;
   }
 
   .footer {
