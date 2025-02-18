@@ -7,7 +7,7 @@
     background-size: cover; 
     background-position: center; 
     width: 100%; 
-    height: 100vh;
+    height: 80vh;
     position: absolute;
     right: 0;
     top: 0;
@@ -553,7 +553,7 @@
     padding: 20px 10px;
     height: 250px;
     max-width: 100%;
-    background: linear-gradient(to right,#723092,#7a4599);
+    background: linear-gradient(to right,#60297b,#9151b6);
     border: 2px solid #ffffff; 
     opacity: 0; 
   transform: translateX(-100%); 
@@ -567,7 +567,7 @@
   }
 
 .ccard-body:nth-child(1),.ccard-body:nth-child(3){
-    background: linear-gradient(to left, #5382a3, #0494fc);
+    background: linear-gradient(to left, #6ab8ef, #0494fc);
     border: none;
 }
 
