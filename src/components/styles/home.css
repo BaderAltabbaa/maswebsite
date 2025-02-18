@@ -86,13 +86,11 @@
 }
 
 .header-animation img{
-    width: 50%;
+    width: 100%;
 }
 
 
-:dir(rtl) .header-animation img{
-    width: 45%;
-}
+
 
 
 .we-do-sec{

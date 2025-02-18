@@ -83,7 +83,7 @@ const Home = () => {
           <span className='header-text-3'>{t('home.header.discovery')}</span>
         </div>
         <div className="header-animation">
-        <img src="—Pngtree—social media marketing viral mms_5332751.png" alt="" />
+        <img src="r1.gif" alt="" />
         </div>
       </div>
 
